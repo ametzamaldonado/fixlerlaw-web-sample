@@ -1,0 +1,10 @@
+section.contact-section {
+    background: #073579;
+    padding: 49px 0px 20px;
+    color: #FFF;
+}
+
+section.contact-section .btn-primary {
+    background: #252525 !important;
+    border-color: #252525  !important;
+}

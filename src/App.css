@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Playfair Display', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+
+/* Button Css */
+.btn{
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 75%;
+}
+
+
+
+
+@media (max-width: 770px) {
+  #align-TextStart, #align-TextEnd {
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+} 
+@media (max-width:991px){
+  section.banner-section h1 {
+      font-size: 30px;
+      max-width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .left-head h2 {
+      font-size: 30px;
   }
-}
+  
+  section.features-section {
+      text-align: center;
+  }
+  
+  .row.top-features {
+      top: 0;
+  }
+  
+  section.features-section {
+      padding: 50px 0px 20px;
+  }
+  
+  section.about-section {
+      padding: 50px 0px 20px;
+  }
+  
+  section.services-section {
+      padding: 30px 0px 40px;
+  }
+  
+  h2.section-title {
+      font-size: 30px;
+  }
+  
+  .section-title-main {
+      margin-bottom: 27px;
+  }
+  
+
+  section.contact-section {
+      text-align: center;
+  }
+  
+  section.logo-section.text-center {
+      padding-bottom: 30px;
+  }
+
+  section.banner-section {
+      padding: 100px 0px;
+  }
+  .banner-text .btn {
+      margin: 10px 10px;
+  }
+  .top-right-info .btn {
+      font-size: 11px;
+  }	
+  .top-right-info {
+      justify-content: center;
+      margin-top: 12px;
+      margin-bottom: 10px;
+  }	
+    
+  .navbar-collapse {
+      padding: 30px;
+  }
+  
+
+    
+    
+  }
+  
+  
+  
+  
+  
+  
