@@ -1,29 +1,10 @@
-import React from 'react';
-import './BannerFeature.css';
+import React from 'react'
 
-function BannerFeature () {
+function AboutUs() {
     return (
         <>
-        {/* Banner Section */} 
-            <section className="banner-section" >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="banner-text">
-                                <h1>Fixler & LaGattuta, LLP </h1>
-                                <p>Committed to providing personal attention to every detail in every matter to meet your goals and objectives.</p>
-                                <div className="btn-main">
-                                    <a href="#" className="btn btn-primary">Read More</a>
-                                    <a href="#" className="btn btn-outline-light">GET A QUOTE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-        {/* About Us Section */}
-            <section className='features-section'>
+            {/* About Us Section */}
+            <section className='features-section' id="middle">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-4">
@@ -49,10 +30,9 @@ function BannerFeature () {
                         </div>
                     </div>
                 </div>
-
             </section>
         </>
     )
 }
 
-export default BannerFeature;
+export default AboutUs

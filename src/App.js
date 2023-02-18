@@ -1,10 +1,11 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer'
+import NavBar from './components/HomeScreen/NavBar';
+import Footer from './components/HomeScreen/Footer'
+import Banner from './components/HomeScreen/Banner';
+import ServicesSection from './components/HomeScreen/ServicesSection';
+import ContactUs from './components/HomeScreen/ContactUs';
+import AboutUs from './components/HomeScreen/AboutUs';
 import './App.css';
-import BannerFeature from './components/BannerFeature';
-import ServicesSection from './components/ServicesSection';
-import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* -------- NavBar -------- */}
       <NavBar />
 
-      <BannerFeature />
+      <Banner />
+      <AboutUs />
 
       <ServicesSection/>
 

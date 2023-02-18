@@ -47,7 +47,7 @@ function ServicesSection() {
 
     const createServiceAreaBox = ({ area, alt, imageLink }, index) => {
         return (
-            <div className="col-lg-3 col-md-4 p-2" key={index}>
+            <div className="col-sm-6 col-md-4 col-lg-3 p-2" key={index}>
                     <div className="services-box">
                         <div className="services-img">
                             <img src={imageLink} alt={alt} />
@@ -67,13 +67,12 @@ function ServicesSection() {
             <div className="row">
 
                 <div className="col-md-12">
-                    <div className="section-title-main p-3">
+                    <div className="section-title-main pb-5">
                         <h2 className="section-title">
                             Legal Practices Area
                         </h2>
                     </div>
                 </div>
-
                 { services.map(item => createServiceAreaBox(item)) }
             </div>
         </div>

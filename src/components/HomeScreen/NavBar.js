@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Montserrat-header.png';
+import logo from '../../assets/Montserrat-header.png';
 import "./NavBar.css"
 
 function NavBar() {
@@ -41,9 +41,6 @@ function NavBar() {
                             </ul>
                         </div>
                     </div>
-                        
-                        
-
                 </nav>
             </div>
             </header>

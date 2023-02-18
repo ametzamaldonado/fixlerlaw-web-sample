@@ -8,3 +8,13 @@ section.contact-section .btn-primary {
     background: #252525 !important;
     border-color: #252525  !important;
 }
+
+@media (max-width: 991px) {
+    section.contact-section {
+      text-align: center;
+    }
+
+    .contact-text h2,  .contact-btn {
+        padding: 20px;
+    }
+}
