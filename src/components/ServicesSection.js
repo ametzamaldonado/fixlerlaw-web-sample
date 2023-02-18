@@ -52,7 +52,7 @@ function ServicesSection() {
                         <div className="services-img">
                             <img src={imageLink} alt={alt} />
                         </div>
-                        <div className="services-info d-flex align-items-end">
+                        <div className="services-info pt-3">
                             <h3>{area}</h3>
                         </div>
                     </div>

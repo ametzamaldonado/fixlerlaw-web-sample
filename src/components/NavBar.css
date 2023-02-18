@@ -1,10 +1,11 @@
 /* Nav Bar Css */
 header {
   position: absolute;
+  backdrop-filter: blur(10px);
   width: 100%
 }
 
-header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   background: transparent !important;
 }
 
