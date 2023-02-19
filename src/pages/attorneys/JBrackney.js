@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react'
 
-<body>
-    <div class="'left-column">
-        <h1><strong>Jack E. Brackney</strong></h1>
-        <span class="grey-font">Of Counsel</span>
+export default function JBrackney() {
+  return (
+    <>
+    <div className="'left-column">
+        <h1 className="font-weight-bold">Jack E. Brackney</h1>
+        <span className="grey-font">Of Counsel</span>
         <p>
             Born in Northeast Ohio, Jack E. Brackney earned an Associate of Arts degree from Cuyahoga Community College in Parma, Ohio before obtaining Bachelor of Arts in Philosophy, Political Science, and Economics from the University of Akron. After attending Case Western Reserve University, where he earned a Master of Arts in Bioethics from the School of Medicine, he was a seminar leader at the Yale University Interdisciplinary Center for Bioethics’ Summer Institute for three years. During his time at Yale, he also collaborated with the Rudd Center for Food Policy and Obesity, tracking and evaluating state and federal legislation affecting food policy. </p>
 
@@ -26,22 +27,22 @@
     </div>
 
 
-    <div class="right-column">
-        <div class="education">
-            <span class="grey-font">Education</span>
+    <div className="right-column">
+        <div className="education">
+            <span className="grey-font">Education</span>
             <ul>
                 <li>B.A., University of Akro</li>
                 <li>M.A., Case Western Reserve University</li>
                 <li>J.D., Georgia State University College of Law</li>
             </ul>
         </div>
-        <div class="admissions">
-            <span class="grey-font">Admissions</span>
+        <div className="admissions">
+            <span className="grey-font">Admissions</span>
             <ul>
                 <li>New York State Bar</li>
             </ul>
         </div>
     </div>
-</body>
-
-</html>
+    </>
+    )
+}

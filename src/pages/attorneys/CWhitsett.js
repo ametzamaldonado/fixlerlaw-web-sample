@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react'
 
-<body>
-    <div class="'left-column">
-        <h1><strong>Clark Whitsett</strong></h1>
-        <span class="grey-font">Of Counsel</span>
+export default function CWhitsett() {
+  return (
+    <>
+        <div className="'left-column">
+        <h1 className="font-weight-bold">Clark Whitsett</h1>
+        <span className="grey-font">Of Counsel</span>
         <p>
             Mr. Whitsett started his legal career representing physicians, nurses, and other medical professionals at a
-            Long Island, New York medical malpractice firm. Mr. Whitsett’s clients included orthopedists, obstetricians,
+            Long Island, New York medical malpractice firm. Mr. Whitsett's clients included orthopedists, obstetricians,
             and internists who were the subject of professional malpractice. Thereafter, Mr. Whitsett was associated
             with a prominent Manhattan trial attorney in where he represented personal injury and medical malpractice
             plaintiffs in state court and represented plaintiffs Federal civil rights cases arising out of police
@@ -29,7 +30,7 @@
             Mr. Whitsett is on a panel of attorneys certified by the New York State Office of Court Administration to
             serve as a Court-Appointed referee in commercial and residential foreclosure cases. As a Court Referee, he
             oversees the sale and transfer of distressed properties. Mr. Whitsett is also on a panel of attorneys
-            qualified to serve as a Court-Appointed fiduciary in estate matters brought in New York Surrogate’s Court
+            qualified to serve as a Court-Appointed fiduciary in estate matters brought in New York Surrogate's Court
             and typically serves in Queens County, New York, representing incapacitated or missing individuals with
             respect to contested wills, estate accounting proceedings, and proceedings to distribute the assets of
             individuals who die intestate.
@@ -38,35 +39,35 @@
             Mr. Whitsett is active in Queens, New York civic affairs and currently serves as an executive officer of
             Queens Community Planning Board 9. Mr. Whitsett is also a member of the Richmond Hill Historic Society and
             several local political organizations. Prior to attending law school, Mr. Whitsett worked in the New York
-            State Senate, New York City Comptroller’s Office, and served as an aide to a presidential candidate and
+            State Senate, New York City Comptroller's Office, and served as an aide to a presidential candidate and
             numerous candidates for state and local office.
         </p>
     </div>
 
 
-    <div class="right-column">
-        <div class="education">
-            <span class="grey-font">Education</span>
+    <div className="right-column">
+        <div className="education">
+            <span className="grey-font">Education</span>
             <ul>
                 <li>B.A., State University of New York at New Paltz</li>
                 <li>J.D., Brooklyn Law School</li>
             </ul>
         </div>
-        <div class="admissions">
-            <span class="grey-font">Admissions</span>
+        <div className="admissions">
+            <span className="grey-font">Admissions</span>
             <ul>
                 <li>New York State Bar</li>
                 <li>Connecticut State Bar</li>
                 <li>U.S. District Court, Eastern District of New York</li>
             </ul>
         </div>
-        <div class="affiliations">
-            <span class="grey-font">Affiliations</span>
+        <div className="affiliations">
+            <span className="grey-font">Affiliations</span>
             <ul>
                 <li>New York State Bar Association</li>
             </ul>
         </div>
     </div>
-</body>
-
-</html>
+    </>
+  )
+}

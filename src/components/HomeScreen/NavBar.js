@@ -11,7 +11,7 @@ function NavBar() {
 
                     <div className="container-fluid">
                         {/* Logo */}
-                        <a className="navbar-brand" href="#">
+                        <a className="navbar-brand" href="/">
                             <img src={logo} alt="Logo" width="300px" height="auto" className="d-inline-block align-text-top" />
                         </a>
 
@@ -27,16 +27,16 @@ function NavBar() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto b2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Home</a>
+                                    <a className="nav-link" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Attorneys</a>
+                                    <a className="nav-link" href="/attorneys">Attorneys</a>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <a className="nav-link" href="#"> Practice Areas</a>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact Us</a>
+                                    <a className="nav-link" href="/contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>

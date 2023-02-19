@@ -14,7 +14,7 @@ function Banner () {
                                 <p>Committed to providing personal attention to every detail in every matter to meet your goals and objectives.</p>
                                 <div className="btn-main">
                                     <a href="#middle" className="btn btn-primary" >Read More</a>
-                                    <a href="#" className="btn btn-outline-light">See Attorneys</a>
+                                    <a href="/attorneys" className="btn btn-outline-light">See Attorneys</a>
                                 </div>
                             </div>
                         </div>

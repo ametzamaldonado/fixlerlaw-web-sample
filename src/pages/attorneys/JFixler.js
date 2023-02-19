@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react'
 
-<body>
-    <div class="'left-column">
-        <h1><strong>Jason L. Fixler</strong></h1>
-        <span class="grey-font">Partner</span>
+export default function JFixler() {
+  return (
+    <>
+        <div className="'left-column">
+        <h1 className="font-weight-bold">Jason L. Fixler</h1>
+        <span className="grey-font">Partner</span>
         <p>
             Jason Fixler lives in New York City with his wife, son and daughter. Born in Rego Park, Queens and raised in
             Westchester County, he graduated from the Hackley School and earned his Bachelor of Arts from Widener
@@ -60,16 +61,16 @@
        
     </div>
 
-    <div class="right-column">
-        <div class="education">
-            <span class="grey-font">Education</span>
+    <div className="right-column">
+        <div className="education">
+            <span className="grey-font">Education</span>
             <ul>
                 <li>B.A., Widener University</li>
                 <li>J.D., Benjamin N. Cardozo School of Law</li>
             </ul>
         </div>
-        <div class="admissions">
-            <span class="grey-font">Admissions</span>
+        <div className="admissions">
+            <span className="grey-font">Admissions</span>
             <ul>
                 <li>New York State Bar</li>
                 <li>U.S. District Court, Southern District of New York</li>
@@ -80,18 +81,20 @@
             </ul>
 
         </div>
-        <div class="affiliations">
-            <span class="grey-font">Affiliations</span>
+        <div className="affiliations">
+            <span className="grey-font">Affiliations</span>
             <ul>
                 <li>New York State Bar Association</li>
-                <li>New York County Lawyers’ Association</li>
+                <li>New York County Lawyers' Association</li>
                 <li>New York State Trial Lawyers Association</li>
                 <li>American Bar Association</li>
             </ul>
 
         </div>
     </div>
+    </>
+  )
+}
 
-</body>
 
-</html>
+    
