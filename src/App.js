@@ -7,9 +7,9 @@ import ServicesSection from './components/HomeScreen/ServicesSection';
 import ContactUs from './components/HomeScreen/ContactUs';
 import AboutUs from './components/HomeScreen/AboutUs';
 
-import Attorneys from './components/AttorneysScreen/Attorneys';
 
 import './App.css';
+import AttorneysCardDisplay from './components/AttorneysScreen/AttorneysCardDisplay';
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
               path="/attorneys"  
               element={
                 <>
-                  <Attorneys/>  
+                  <AttorneysCardDisplay/>
                 </>
               }
             /> 

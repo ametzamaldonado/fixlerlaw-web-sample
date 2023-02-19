@@ -1,0 +1,38 @@
+section.attorney-section {
+    background: #22282d;
+    text-align: center;
+    padding: 100px 0px 70px;
+}
+
+.attorney-box {
+    margin-bottom: 30px;
+}
+
+.attorney-media img {
+    width: 100%;
+}
+
+.attorney-info {
+    background: #181d21;
+    padding: 30px;
+    border-bottom: 2px solid #ed1c24;
+    color: ;
+}
+
+
+.attorney-info h3 {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.attorney-info p {
+    color: #ed1c24;
+}
+
+section.attorney-section .section-title {
+    color: #FFF;
+}
+
+.attorney-contact {
+    color:white;
+}

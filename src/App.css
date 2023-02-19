@@ -22,3 +22,18 @@ img {
   max-width: 75%;
 }
 
+.grey-font {
+  color: grey
+}
+
+.blue-font {
+  color: blue
+}
+
+.card-box {
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+}

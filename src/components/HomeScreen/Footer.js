@@ -5,7 +5,7 @@ function Footer() {
         <>
             <footer className='page-footer p-5'>
                 <div className="container">
-                <div className="container-fluid text-center" style={{ fontSize: 'small', color: 'grey' }}>
+                <div className="container-fluid text-center grey-font" style={{ fontSize: 'small' }}>
 
                     {/* <!-- Grid row --> */}
                     <div className="row d-flex align-items-center">

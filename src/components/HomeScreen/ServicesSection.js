@@ -52,7 +52,7 @@ function ServicesSection() {
                 key={index}
                 className="col-sm-6 col-md-4 col-lg-3 p-2"
             >
-                <div className="services-box">
+                <div className="card-box">
                     <div className="services-img">
                         <img src={imageLink} alt={alt} />
                     </div>
