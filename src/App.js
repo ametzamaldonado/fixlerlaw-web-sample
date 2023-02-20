@@ -10,9 +10,12 @@ import AboutUs from './components/HomeScreen/AboutUs';
 
 import './App.css';
 import AttorneysCardDisplay from './components/AttorneysScreen/AttorneysCardDisplay';
+import ContactScreen from './components/ContactScreen/ContactScreen';
 
 
 function App() {
+  // const templateID = process.env.REACT_APP_TEMPLATE_ID;
+  // console.log(templateID)
   // console.log(attorneysData)
   return (
     <div className="App">
@@ -27,6 +30,7 @@ function App() {
                 <>
                   <AboutUs />
                   <ServicesSection />
+                  <ContactUs />
                 </>
               }
             />
@@ -35,13 +39,21 @@ function App() {
               element={
                 <>
                   <AttorneysCardDisplay/>
+                  <ContactUs />
+                </>
+              }
+            /> 
+            <Route 
+              path="/contact"  
+              element={
+                <>
+                  <ContactScreen/>
                 </>
               }
             /> 
         </Routes>
       </Router>
       {/* -------- Contact & Footer -------- */}
-      <ContactUs />
       <Footer />
     </div >
   );

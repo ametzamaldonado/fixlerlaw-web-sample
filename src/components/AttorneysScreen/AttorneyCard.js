@@ -21,7 +21,7 @@ function AttorneyCard({ attorney }) {
                         <div className="email">
                             <a href={`mailto:${email}`} className="btn btn-outline-light">Send Email <EnvelopeFill/></a>
                         </div>
-                        <div className="phone-number">
+                        <div className="phone-number pt-3">
                             <TelephoneFill/> : (212) 785-9800 ext. {extension} 
                         </div>
                     </div>
