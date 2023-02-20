@@ -12,7 +12,9 @@ function Footer() {
 
                         {/* <!-- Copyright --> */}
                         <div className="copyright" >
-                            © 2009-2023 Fixler & LaGattuta, LLP. All rights reserved.
+                            © 2009-2023 Fixler & LaGattuta, LLP. All rights reserved. 
+                            <br/>
+                            <a href='https://ametza-maldonado-portfolio.netlify.app/' target='_blank' className='grey-font'>developedbyADM</a> 
                         </div>
 
                     </div>

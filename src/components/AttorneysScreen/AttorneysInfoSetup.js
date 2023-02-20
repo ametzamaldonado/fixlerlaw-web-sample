@@ -6,6 +6,9 @@ function AttorneysInfoSetup( ) {
     <section className='attorneys-display'>
       <div className='container'>
         <div className='row'>
+          <div className='col'>
+            
+          </div>
         </div>
       </div>
     </section>

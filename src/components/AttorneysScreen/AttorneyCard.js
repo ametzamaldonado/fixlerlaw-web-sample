@@ -7,7 +7,7 @@ function AttorneyCard({ attorney }) {
     return (
         <>
         <div className="col-sm-6 col-md-6 col-lg-4 p-2">
-            <div className="card-box">
+            <div className="card-box" onClick={() => console.log(name)}>
                 <div className="attorney-media">
                     <img 
                         src={photoLink ? photoLink : 'https://www.pngitem.com/pimgs/m/661-6619328_default-avatar-png-blank-person-transparent-png.png'} 
