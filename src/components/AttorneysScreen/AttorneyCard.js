@@ -2,12 +2,16 @@ import React from 'react';
 import { EnvelopeFill, TelephoneFill } from "react-bootstrap-icons";
 import "./AttorneyCard.css"
 
-function AttorneyCard({ attorney }) {
-    const { photoLink, name, type, email, extension } = attorney;
+function AttorneyCard({ attorney, hideInfoDiv, setHiddenInfoDiv, setSelectedAtty }) {
+    const { photoLink, file, name, type, email, extension } = attorney;
+    const displayAttySelected = () => {
+        setSelectedAtty(file);
+        setHiddenInfoDiv(!hideInfoDiv)
+    }
     return (
         <>
         <div className="col-sm-6 col-md-6 col-lg-4 p-2">
-            <div className="card-box" onClick={() => console.log(name)}>
+            <div className="card-box" onClick={() => displayAttySelected()}>
                 <div className="attorney-media">
                     <img 
                         src={photoLink ? photoLink : 'https://www.pngitem.com/pimgs/m/661-6619328_default-avatar-png-blank-person-transparent-png.png'} 

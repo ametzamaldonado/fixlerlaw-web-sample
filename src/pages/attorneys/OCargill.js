@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function OCargil() {
+export default function OCargill() {
     return (
         <>
             <div className="col-lg-8">

@@ -5,7 +5,7 @@ export default function JBrackney() {
         <>
             <div className="col-lg-8">
                 <div className="'left-column">
-                    <h1 className="font-weight-bold">Jack E. Brackney</h1>
+                    <h1 className="font-weight-bold white-font">Jack E. Brackney</h1>
                     <span className="grey-font">Of Counsel</span>
                     <p>
                         Born in Northeast Ohio, Jack E. Brackney earned an Associate of Arts degree from Cuyahoga Community College in Parma, Ohio before obtaining Bachelor of Arts in Philosophy, Political Science, and Economics from the University of Akron. After attending Case Western Reserve University, where he earned a Master of Arts in Bioethics from the School of Medicine, he was a seminar leader at the Yale University Interdisciplinary Center for Bioethics' Summer Institute for three years. During his time at Yale, he also collaborated with the Rudd Center for Food Policy and Obesity, tracking and evaluating state and federal legislation affecting food policy. </p>

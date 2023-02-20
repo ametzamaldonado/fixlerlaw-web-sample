@@ -5,7 +5,7 @@ export default function CWhitsett() {
         <>
             <div className="col-lg-8">
                 <div className="'left-column">
-                    <h1 className="font-weight-bold">Clark Whitsett</h1>
+                    <h1 className="font-weight-bold white-font">Clark Whitsett</h1>
                     <span className="grey-font">Of Counsel</span>
                     <p>
                         Mr. Whitsett started his legal career representing physicians, nurses, and other medical professionals at a
@@ -50,14 +50,14 @@ export default function CWhitsett() {
                 <div className="right-column">
                     <div className="education">
                         <span className="grey-font">Education</span>
-                        <ul>
+                        <ul className='white-font'>
                             <li>B.A., State University of New York at New Paltz</li>
                             <li>J.D., Brooklyn Law School</li>
                         </ul>
                     </div>
                     <div className="admissions">
                         <span className="grey-font">Admissions</span>
-                        <ul>
+                        <ul className='white-font'>
                             <li>New York State Bar</li>
                             <li>Connecticut State Bar</li>
                             <li>U.S. District Court, Eastern District of New York</li>
@@ -65,7 +65,7 @@ export default function CWhitsett() {
                     </div>
                     <div className="affiliations">
                         <span className="grey-font">Affiliations</span>
-                        <ul>
+                        <ul className='white-font'>
                             <li>New York State Bar Association</li>
                         </ul>
                     </div>
