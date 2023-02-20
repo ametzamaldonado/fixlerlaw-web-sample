@@ -4,7 +4,6 @@ export default function Premises() {
     return (
         <>
             <div className="'left-column">
-                <h1><span className="blue-font">PREMISES & GENERAL LIABILITY</span></h1>
                 <p>
                     <span className="font-weight-bold">Fixler & LaGattuta, LLP</span> has represented and successfully defended a variety of property owners, as well as public and private landlords, including shopping centers and malls, condominium and homeowner associations, real estate businesses and management companies, supermarkets, restaurants, drug stores, health facilities, schools, transportation companies, and hotels against a wide variety of personal injury actions and against negligence claims brought on behalf of crime victims.
                 </p>

@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Sample Law Firm Website (Create React App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to redesign the original website at the law firm where I am currently employed, [Fixler & LaGattuta, LLP](https://fixlerlaw.com/index.html).
 
-## Available Scripts
+### ** **Click here for [Deployed Site](https://fixlerlaw-sample.netlify.app/)** **
 
-In the project directory, you can run:
+## Packages Installed:
+- For icons : `npm i react-bootstrap-icons`
+- For front-end builds: `npm i bootstrap@5.3.0-alpha1`
+- Add. front-end builds: `npm install react-bootstrap bootstrap`
+- For routing library: `npm i react-router-dom`
 
-### `npm start`
+## To open the app locally.. 
+1. Fork  repository
+2. Run `npm install` to download all packages
+3. Create a `.env` file in the root direactory and perform the following tasks to ensure the 'Contact Us' component sends you a confirmation mesasge upon completion.
+    - create an account with [EmailJS](https://www.emailjs.com/) and follow their steps to ensure connectivity.
+    - once created, the `.env` file must include the following variables with your respective keys.
+        >  
+            REACT_APP_SERVICE_ID='YOUR_SERVICE_ID'
+            REACT_APP_TEMPLATE_ID='YOUR_EMAIL_TEMPLATE_ID'
+            REACT_APP_PUBLIC_KEY='YOUR_PUBLIC_KEY'
+        >
+    - additionally open the `index.html` and add the `REACT_APP_PUBLIC_KEY` value into the last script tag which enables the use of EmailJS throughout the site.
+4. If all values are replaced as stated above, your app should be fully functional! Run `npm install` to open the project locally.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

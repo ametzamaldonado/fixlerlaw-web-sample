@@ -4,7 +4,6 @@ export default function ProfessionalLiability() {
     return (
         <>
             <div className="'left-column">
-                <h1><span className="blue-font">PROFESSIONAL LIABILITY / DIRECTORS AND OFFICERS</span></h1>
                 <p>
                     The attorneys at <span className="font-weight-bold">Fixler & LaGattuta, LLP</span> have been investigating, negotiating, counseling
                     and defending claims asserted against professional organizations and individuals for over a decade. We have

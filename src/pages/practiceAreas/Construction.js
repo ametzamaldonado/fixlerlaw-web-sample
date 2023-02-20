@@ -4,7 +4,6 @@ export default function Construction() {
     return (
         <>
             <div class="'left-column">
-                <h1><span class="blue-font">CONSTRUCTION & LABOR LAW LITIGATION</span></h1>
                 <h3>Third-Party Auto Claims</h3>
                 <p>
                     <span className="font-weight-bold">Fixler & LaGattuta, LLP</span> has considerable experience defending insureds and their carriers in complex multi-party litigation involving labor law disputes. We have defended contractors and engineers in construction claims arising from design and construction defects including those related to roofing systems, foundation failures, tilt wall construction, highway and bridge construction, retention ponds, drainage issues, and air quality.

@@ -4,7 +4,6 @@ export default function Municipal() {
     return (
         <>
             <div className="'left-column">
-                <h1><span className="blue-font">MUNICIPAL, LABOR & EMPLOYMENT LAW</span></h1>
                 <p>
                     The Firm has developed expertise and met with considerable success defending against EEOC claims and suits
                     alleging violations of state and federal labor, employment, and civil rights statutes. We offer both federal

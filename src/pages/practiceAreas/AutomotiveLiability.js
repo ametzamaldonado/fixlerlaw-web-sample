@@ -4,7 +4,6 @@ export default function AutomotiveLiability() {
     return (
         <>
             <div className="'left-column">
-                <h1><span className="blue-font">AUTOMOTIVE LIABILITY</span></h1>
                 <h3>Third-Party Auto Claims</h3>
                 <p>
                     <span className="font-weight-bold">Fixler & LaGattuta, LLP</span> has developed a vigorous, cost-effective automotive liability
