@@ -12,7 +12,7 @@ function NavBar() {
                     <div className="container-fluid">
                         {/* Logo */}
                         <a className="navbar-brand" href="/">
-                            <img src={logo} alt="Logo" width="300px" height="auto" className="d-inline-block align-text-top" />
+                            <img src={logo} alt="Logo" width="100%" height="auto" className="d-inline-block align-text-top" />
                         </a>
 
                         {/* Collapse Button Toggle */}

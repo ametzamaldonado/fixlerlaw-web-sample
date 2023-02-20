@@ -5,6 +5,10 @@ header {
   width: 100%
 }
 
+nav img {
+  width: 300px;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   background: transparent !important;
 }
@@ -28,5 +32,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   .navbar-collapse {
     text-align: center;
     padding: 30px;
+  }
+
+  nav img {
+    width: 200px;
   }
 }
