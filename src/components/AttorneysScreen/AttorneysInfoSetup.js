@@ -28,6 +28,8 @@ function AttorneysInfoSetup({ selectedAtty }) {
         return <PLagattuta />
       case 'VCardo':
         return <VCardo />
+      default :
+        console.log("no more attorneys")
     }
   }
   return (
