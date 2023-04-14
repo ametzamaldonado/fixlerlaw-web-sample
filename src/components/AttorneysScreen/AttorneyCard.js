@@ -26,7 +26,7 @@ function AttorneyCard({ attorney, hideInfoDiv, setHiddenInfoDiv, setSelectedAtty
                             <a href={`mailto:${email}`} className="btn btn-outline-light">Send Email <EnvelopeFill/></a>
                         </div>
                         <div className="phone-number pt-3">
-                            <TelephoneFill/> : (212) 785-9800 ext. {extension} 
+                            <TelephoneFill/> : (212) 785-9800{extension ? ` ext. ${extension}` : null} 
                         </div>
                     </div>
                 </div>

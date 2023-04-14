@@ -42,7 +42,7 @@ function AttorneysInfoSetup({ selectedAtty }) {
           
         </div>
         <div className="text-center">
-          <a href="/attorneys" type="button" class="btn btn-primary">back</a>
+          <a href="/attorneys" type="button" class="btn btn-primary">Back</a>
         </div>
       </div>
     </section>
