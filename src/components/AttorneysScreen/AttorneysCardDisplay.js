@@ -32,7 +32,7 @@ const attorneysInfo = [
         file: 'VCardo',
         type: 'Of Counsel',
         email: 'vito.cardo@fixlerlaw.com',
-        extension: 306,
+        extension: 307,
         photoLink: null,
     },
     {
@@ -56,7 +56,7 @@ const attorneysInfo = [
         file: 'MLembo',
         type: 'Associate',
         email: 'michael.lembo@fixlerlaw.com',
-        extension: 308,
+        extension: 312,
         photoLink: null,
     },
     {
